@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
-    return response.json({message: 'Servidor rodando na AWS com NODE e EXPRESS, finalmente hahaha ... updated!'});
+    return response.json({message: 'Servidor rodando na AWS com NODE e EXPRESS com PM2, finalmente hahaha ... updated!'});
 })
 
 app.get('/atualizou', (request, response) => {
