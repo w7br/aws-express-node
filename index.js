@@ -11,8 +11,8 @@ app.get('/atualizou', (request, response) => {
 })
 
 app.get('/teste', (request, response) => {
-    const {name, date} = request.body;
-    return response.json({name, date});
+    const dataa = new Date();
+    return response.json(dataa);
 })
 
 app.listen(3333);
